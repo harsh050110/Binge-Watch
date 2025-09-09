@@ -15,41 +15,39 @@
     <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
-    <div class="navbar">
-      <a href="#" class="nav-logo">
-        <img src="assets/BWD HORIZON.png" alt="Logo" />
-      </a>
-
-      <!-- Desktop Nav Links -->
-      <nav class="nav-links" id="nav-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
-
-      <!-- Hamburger Icon -->
-      <button id="nav-toggle" class="nav-toggle" aria-label="Open Menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-    </div>
-
-    <!-- Side Drawer -->
-    <div class="side-overlay" id="side-overlay"></div>
-    <aside class="side-drawer" id="side-drawer">
-      <button id="nav-close" class="close-btn" aria-label="Close Menu"></button>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </aside>
-
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <img
+            src="assets/BWD HORIZON.png"
+            alt="Binge Watch Digital logo"
+            width="200px"
+            height=""
+            50px
+          />
+        </div>
+        <div class="nav-logoborder">
+          <ul>
+            <li>
+              <div class="home border"><a href="#">Home</a></div>
+            </li>
+            <li>
+              <div class="service border">
+                <a href="#services">Services</a>
+              </div>
+            </li>
+            <li>
+              <div class="aboutus border"><a href="#AboutUs">About Us</a></div>
+            </li>
+            <li>
+              <div class="contact us border">
+                <a href="#Contact">Contact Us</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <div class="hero">
       <div class="hero-video-box">
         <video autoplay muted loop>
@@ -339,6 +337,5 @@
     <!-- Scrollrevel -->
     <script src="scrollreveal.min.js"></script>
     <script src="scroll.js"></script>
-    <script src="navbar.js"></script>
   </body>
 </html>
